@@ -210,7 +210,7 @@
   <div class="extra-header__section">
     <h3>Class Hierarchy</h3>
     <div class="inheritance">
-# local function draw_hierary_recursifly(i)
+# local function draw_hierarchy_recursifly(i)
 #   local is_root_level = (i == #hierarchy)
     <ul class="inheritance__level $(is_root_level and 'inheritance__level--root' or '')">
         <li class="inheritance__level__node $(is_root_level and 'inheritance__level__node--root' or '')">
@@ -224,12 +224,12 @@
         </li>
 #   if i > 1 then
         <li>
-#           draw_hierary_recursifly(i - 1)
+#           draw_hierarchy_recursifly(i - 1)
         </li>
 #   end
     </ul>
-# end -- function draw_hierary_recursifly
-# draw_hierary_recursifly(#hierarchy)
+# end -- function draw_hierarchy_recursifly
+# draw_hierarchy_recursifly(#hierarchy)
     </div>
   </div>
 # end -- module.tags.supermodule
